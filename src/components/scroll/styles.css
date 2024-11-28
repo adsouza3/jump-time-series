@@ -1,0 +1,10 @@
+
+.scroll-container {
+  background-color: #333;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.scroll-inner {
+  border: 1px solid white;
+}

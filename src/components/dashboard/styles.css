@@ -1,0 +1,40 @@
+
+.dashboard-container {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-container {
+  display: flex;
+}
+
+.data-point-info {
+  padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-point-label {
+  font-size: 15px;
+}
+
+.data-point-value {
+  font-size: 30px;
+}
+
+.data-point-value.positive {
+  color: green;
+}
+
+.data-point-value.negative {
+  color: red;
+}
+
+.controls-container {
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+}
