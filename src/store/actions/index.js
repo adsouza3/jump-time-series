@@ -1,5 +1,5 @@
-import { getDisplayIndices } from "../../lib/data_processing";
-import {  HOURS_8, intervals, SECONDS_5 } from "../../lib/time";
+import { getDisplayIndices } from 'lib/data_processing';
+import {  HOURS_8, intervals, SECONDS_5 } from 'lib/time';
 
 export const SET_TIME_SERIES = 'SET_TIME_SERIES';
 export const setTimeSeries = ({ timeSeries, displayIndices, selection }) => (dispatch) => {

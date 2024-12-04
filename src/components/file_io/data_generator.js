@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 
-import { beginFileRead, setTimeSeries } from '../../store/actions';
+import { beginFileRead, setTimeSeries } from 'store/actions';
 
 export const DataGenerator = ({ beginFileRead, loading, setTimeSeries }) => {
   const [sampleSize, setSampleSize] = useState(10000000);

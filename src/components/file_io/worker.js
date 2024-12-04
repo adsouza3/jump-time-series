@@ -1,5 +1,5 @@
-import { getDisplayIndices, parseCsv } from "../../lib/data_processing";
-import { getDefaultSelection, intervals } from "../../lib/time";
+import { getDisplayIndices, parseCsv } from 'lib/data_processing';
+import { getDefaultSelection, intervals } from 'lib/time';
 
 onmessage = function (event) {
   if (event.data.file) {

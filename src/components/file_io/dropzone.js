@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import { useDropzone } from 'react-dropzone';
 
-import { beginFileRead, setTimeSeries } from '../../store/actions';
+import { beginFileRead, setTimeSeries } from 'store/actions';
 
 const Dropzone = ({ beginFileRead, loading, setTimeSeries }) => {
 

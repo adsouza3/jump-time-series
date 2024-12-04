@@ -2,13 +2,13 @@ import React, { useMemo } from 'react';
 
 import { Line, Text } from 'react-konva';
 import { Y_AXIS_WIDTH } from './y_axis';
-import { getTimeString, intervals } from '../../lib/time';
+import { getTimeString, intervals } from 'lib/time';
 
 export const X_AXIS_HEIGHT = 30;
 const TICK_MARK_LENGTH = 5;
 const FONT_SIZE = 12;
 const LABEL_WIDTH = 50;
-const COLOR = "#AAA";
+const COLOR = '#AAA';
 
 const XAxis = ({ height, width, min, max, selection }) => {
   const range = max - min;

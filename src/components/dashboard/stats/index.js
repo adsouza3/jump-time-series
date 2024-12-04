@@ -27,10 +27,12 @@ export const Stats = ({ displayIndices, focus, selection, timeSeries }) => {
       label="End"
     />
     <Change end={lastPoint.value} start={firstPoint.value} />
-    {focus && <DataPointInfo
-      dataPoint={focus}
-      label="Selected"
-    />}
+    {focus && (
+      <DataPointInfo
+        dataPoint={focus}
+        label="Selected"
+      />
+    )}
   </div>;
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { getTimeString } from '../../../lib/time';
+import { getTimeString } from 'lib/time';
 
 const DataPointInfo = ({ dataPoint, label }) => {
   const timeString = getTimeString(dataPoint.timestamp);

@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { connect } from 'react-redux';
 
-import { recenter } from '../../store/actions';
+import { recenter } from 'store/actions';
 
 import { Stage, Layer, Rect } from 'react-konva';
 

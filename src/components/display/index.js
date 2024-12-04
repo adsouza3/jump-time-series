@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { connect } from 'react-redux';
 
-import { clearFocus, setFocus } from '../../store/actions';
+import { clearFocus, setFocus } from 'store/actions';
 
 import _ from 'lodash';
 
